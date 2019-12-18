@@ -182,6 +182,10 @@
   - application/atom_xml : feed로 알려진 구조적인 데이터를 XML 기반의 리스트로 포맷팅한 Atom을 사용하는 콘텐츠
   - application/javascript : 자바스크립트 프로그래밍 언어로 작성된 소스 코드
   - application/json : JSON 포맷
+- 미디어 타입 설계
+  - 애플리케이션 고유 미디어 타입을 사용해야 한다.
+  - 리소스의 표현이 여러 가지 가능할 경우 미디어 타입 협상을 지원해야 한다.
+  - query 변수를 사용한 미디어 타입 선택을 지원할 수 있다.
   
 
     
