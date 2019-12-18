@@ -172,5 +172,16 @@
 - 만기 캐싱 헤더는 '3XX' 와 '4XX' 응답에 선택적으로 사용될 수 있다.
 - 커스텀 HTTP 헤더는 HTTP 메서드의 행동을 바꾸는데 사용해서는 안 된다.
 
+### 미디어 타입
+- 요청이나 응답의 메시지 바디 안에 있는 데이터 형태를 식별하기 위해, Content-Type 헤더 값을 미디어 타입이라고 한다.
+- 미디어 타입 종류
+  - text/plain : 평문 포맷
+  - text/html : HTML로 포맷된 콘텐츠
+  - image/jpeg : 표준화한 이미지 압축 방법
+  - application/xml : XML로 구조화된 콘텐츠
+  - application/atom_xml : feed로 알려진 구조적인 데이터를 XML 기반의 리스트로 포맷팅한 Atom을 사용하는 콘텐츠
+  - application/javascript : 자바스크립트 프로그래밍 언어로 작성된 소스 코드
+  - application/json : JSON 포맷
+  
 
     
